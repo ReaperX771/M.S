@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight, Home, BookOpen, User, Mail, Menu } from "lucide-react";
-import RxLogo from "../assets/image/Rx.png";
+import rx from "../assets/image/rx.png";
 
 function Header({ collapsed, setCollapsed }) {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -33,7 +33,7 @@ function Header({ collapsed, setCollapsed }) {
         {/* Logo */}
         <div className={`flex ${collapsed ? "justify-center" : "justify-start"} mb-12`}>
           <img
-            src={RxLogo}
+            src={rx}
             alt="Logo"
             className={`${collapsed ? "w-10 h-10" : "w-20 h-20"} object-contain`}
           />
@@ -104,7 +104,7 @@ function Header({ collapsed, setCollapsed }) {
       {/* Mobile Sidebar */}
       {mobileOpen && (
         <div className="md:hidden fixed top-0 left-0 h-screen w-20 bg-gradient-to-b from-[#02343f] to-[#012A33] text-white flex flex-col items-center py-6 shadow-xl z-40">
-          <img src={RxLogo} alt="Logo" className="w-10 h-10 mb-10" />
+          <img src={rx} alt="Logo" className="w-10 h-10 mb-10" />
           <nav className="flex flex-col gap-8">
             <Link to="/" className="group relative flex justify-center">
               <Home size={24} />
