@@ -152,7 +152,7 @@ function Home() {
         ))}
 
         <div className="w-full px-6 py-16 text-center relative z-10">
-          <h1 className="text-4xl font-extrabold mb-4">
+          <h1 className="text-4xl text- font-extrabold mb-4">
             Welcome to <span className="text-white">ReaperX</span>
           </h1>
           <p className="text-base text-[#e5e3c2] mb-8">

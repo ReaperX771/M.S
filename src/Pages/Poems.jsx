@@ -571,11 +571,11 @@ export default function Poems() {
               ref={(el) => (sectionRefs.current[idx] = el)}
               className="bg-[#023a45] p-6 rounded-lg shadow-lg opacity-0 translate-y-6 transition-all duration-700 ease-out"
             >
-              <h2 className="text-3xl font-semibold mb-4">{poem.title}</h2>
-              <pre className="whitespace-pre-wrap text-base leading-relaxed mb-4">
+              <h2 className="text-3xl font-semibold mb-4 text-[#F0EDCC]">{poem.title}</h2>
+              <pre className="whitespace-pre-wrap text-base leading-relaxed mb-4 text-[#e5e3c2]">
                 {expanded[idx] ? poem.content : poem.excerpt}
               </pre>
-              <p className="text-sm mb-4">
+              <p className="text-sm mb-4 text-[#F0EDCC]">
                 Category: {Array.isArray(poem.category) ? poem.category.join(", ") : poem.category} | Added: {poem.date_added}
               </p>
               <button
