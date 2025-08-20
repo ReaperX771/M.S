@@ -166,8 +166,8 @@ function Contact() {
       </section>
 
       {/* Mobile / Small */}
-      <section className="md:hidden fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-[#012d36] via-[#02343f] to-[#034652] text-[#F0EDCC] py-10 overflow-x-hidden overflow-y-auto">
-        <div className="relative z-10 w-full px-6 flex justify-center items-center">
+      <section className="md:hidden fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-[#012d36] via-[#02343f] to-[#034652] text-[#F0EDCC] py-27 overflow-x-hidden overflow-y-auto">
+        <div className="relative z-10 w-full px-6 flex justify-center mt-37 items-center">
           <div className="w-full bg-white/10 backdrop-blur-md border border-[#F0EDCC]/20 rounded-2xl p-6 shadow-lg">
             <h2 className="text-3xl font-bold mb-4 text-center">Contact Me</h2>
             <p className="text-base text-[#e5e3c2] mb-6 text-center">
