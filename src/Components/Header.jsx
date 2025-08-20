@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight, Home, BookOpen, User, Mail, Menu } from "lucide-react";
-import rx from "../assets/image/rx.png";
+import rx from '../assets/images/rx.png'
 
 function Header({ collapsed, setCollapsed }) {
   const [mobileOpen, setMobileOpen] = useState(false);
