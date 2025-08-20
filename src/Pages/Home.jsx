@@ -167,7 +167,7 @@ function Home() {
             </Link>
             <Link
               to="/about"
-              className="w-full px-5 py-3 border border-[#F0EDCC] text-[#F0EDCC] font-semibold rounded-xl hover:bg-[#F0EDCC]/10 transition text-center"
+              className="w-full px-5 py-3 border border-white text-white font-semibold rounded-xl hover:bg-[#F0EDCC]/10 transition text-center"
             >
               Learn More
             </Link>
