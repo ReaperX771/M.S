@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaXTwitter } from "react-icons/fa6"; // ✅ Import WhatsApp & X icons
+import { FaEnvelope, FaWhatsapp, FaXTwitter } from "react-icons/fa6"; // ✅ Import WhatsApp & X icons
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -53,7 +53,7 @@ function Contact() {
 
       const result = await response.json();
       if (result.success) {
-        setStatus({ type: "success", message: "Message sent successfully! Check your inbox." });
+        setStatus({ type: "success", message: "Message sent successfully!." });
         setFormData({ name: "", email: "", subject: "", message: "" });
       } else {
         setStatus({ type: "error", message: `Failed to send: ${result.message || "Unknown error"}` });
@@ -70,7 +70,7 @@ function Contact() {
       {/* Desktop / Tablet */}
       <section className="hidden md:flex relative w-full min-h-screen bg-gradient-to-br from-[#012d36] via-[#02343f] to-[#034652] text-[#F0EDCC] overflow-hidden flex">
         {/* Sidebar (desktop) */}
-        <aside className="flex flex-col w-1/5 border-r border-[#F0EDCC]/20 px-4 py-6">
+        <aside className="flex flex-col w-1/4 border-r border-[#F0EDCC]/20 px-4 py-6">
           <h2 className="text-xl font-bold mb-6">Table of Content</h2>
           <nav className="flex flex-col gap-3">
             <a href="/about" className="hover:text-[#F0EDCC] transition">About</a>
@@ -159,6 +159,14 @@ function Contact() {
                 >
                   <FaXTwitter size={28} />
                 </a>
+                 <a
+                  href="mailto:control0177@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#F0EDCC] hover:text-red-400 transition"
+                >
+                  <FaEnvelope size={28} />
+                </a>
               </div>
             </div>
           </div>
@@ -245,6 +253,14 @@ function Contact() {
                   className="text-[#F0EDCC] hover:text-blue-400 transition"
                 >
                   <FaXTwitter size={24} />
+                </a>
+                 <a
+                  href="mailto:control0177@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#F0EDCC] hover:text-red-400 transition"
+                >
+                  <FaEnvelope size={24} />
                 </a>
               </div>
             </div>
