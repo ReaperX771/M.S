@@ -95,8 +95,8 @@ function About() {
         ))}
 
         <div className="relative z-10 w-full px-6 text-center">
-          <h2 className="text-3xl font-bold mb-4">About Me</h2>
-          <p className="text-base text-[#F0EDCC] mb-8">
+          <h2 className="text-3xl font-bold mb-4 text-[#F0EDCC]">About Me</h2>
+          <p className="text-base text-[#e5e3c2] mb-8">
             I’m ReaperX — a creator of poems, reflections, and words that linger. 
             This is a space where thoughts unfold and emotions breathe life into art.
           </p>
@@ -108,8 +108,8 @@ function About() {
                 ref={(el) => (cardsRef.current[i] = el)}
                 className="opacity-100 translate-y-0 transition-all duration-700 ease-out bg-white/10 backdrop-blur-md border border-[#F0EDCC]/20 p-4 rounded-2xl shadow-lg"
               >
-                <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
-                <p className="text-[#F0EDCC] text-sm">{descriptions[i]}</p>
+                <h3 className="text-xl font-semibold mb-2 text-[#F0EDCC]">{title}</h3>
+                <p className="text-[#e5e3c2] text-sm">{descriptions[i]}</p>
               </div>
             ))}
           </div>

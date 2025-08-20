@@ -86,8 +86,8 @@ function Home() {
 
         {/* Main Content */}
         <div className="text-center max-w-4xl relative z-10">
-          <h1 className="text-5xl lg:text-6xl font-extrabold mb-6">
-            Welcome to <span className="text-white">ReaperX</span>
+          <h1 className="text-5xl lg:text-6xl font-extrabold mb-6 text-[#F0EDCC]">
+            Welcome to <span className="text-[#F0EDCC]">ReaperX</span>
           </h1>
           <p className="text-xl lg:text-2xl text-[#e5e3c2] mb-10">
             Dive into poems, reflections, and thoughts that linger.
@@ -152,10 +152,10 @@ function Home() {
         ))}
 
         <div className="w-full px-6 py-16 text-center relative z-10">
-          <h1 className="text-4xl text-[#F0EDCC] text- font-extrabold mb-4">
-            Welcome to <span className="text-white">ReaperX</span>
+          <h1 className="text-4xl font-extrabold mb-4 text-[#F0EDCC]">
+            Welcome to <span className="text-[#F0EDCC]">ReaperX</span>
           </h1>
-          <p className="text-base text-[#F0EDCC] mb-8">
+          <p className="text-base text-[#e5e3c2] mb-8">
             Poems and reflections to carry with you.
           </p>
           <div className="flex flex-col gap-3">
@@ -167,7 +167,7 @@ function Home() {
             </Link>
             <Link
               to="/about"
-              className="w-full px-5 py-3 border border-white text-white font-semibold rounded-xl hover:bg-[#F0EDCC]/10 transition text-center"
+              className="w-full px-5 py-3 border border-[#F0EDCC] text-[#F0EDCC] font-semibold rounded-xl hover:bg-[#F0EDCC]/10 transition text-center"
             >
               Learn More
             </Link>

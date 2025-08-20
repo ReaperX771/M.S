@@ -108,25 +108,25 @@ function Header({ collapsed, setCollapsed }) {
           <nav className="flex flex-col gap-8">
             <Link to="/" className="group relative flex justify-center">
               <Home size={24} />
-              <span className="absolute left-12 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+              <span className="absolute left-12 bg-black text-[#F0EDCC] text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
                 Home
               </span>
             </Link>
             <Link to="/poems" className="group relative flex justify-center">
               <BookOpen size={24} />
-              <span className="absolute left-12 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+              <span className="absolute left-12 bg-black text-[#F0EDCC] text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
                 Poems
               </span>
             </Link>
             <Link to="/about" className="group relative flex justify-center">
               <User size={24} />
-              <span className="absolute left-12 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
+              <span className="absolute left-12 bg-black text-[#F0EDCC] text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
                 About
               </span>
             </Link>
             <Link to="/contact" className="group relative flex justify-center">
               <Mail size={24} />
-              <span className="absolute left-12 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100  transition">
+              <span className="absolute left-12 bg-black text-[#F0EDCC] text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100  transition">
                 Contact
               </span>
             </Link>
